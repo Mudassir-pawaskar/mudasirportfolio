@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="html" href="Home.html">
+    <title>Mudassir's Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: rgb(2, 0, 33);
+            color: rgb(255, 255, 255);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: #01001a;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        nav ul li a:hover {
+            color: rgb(172, 172, 252);
+            font-size: 1.05rem;
+        }
+
+        nav div img {
+            width: 99px;
+            background-color: white;
+            border-radius: 50%;
+            height: 79px;
+            width: 79px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            color: rgb(255, 255, 255);
+            justify-content: space-around;
+            margin: 86px 0;
+
+
+        }
+
+        .leftsection {
+
+            width: 605px;
+            font-size: 3rem;
+
+        }
+
+        .leftsection .btn {
+            padding: 50px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #020021;
+            color: white;
+            border-radius: 8px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .leftsection .btn:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+        .rightsection img {
+            height: 219px;
+            width: 237px;
+            margin: 0px 26px;
+
+        }
+
+        .purple {
+            color: rgb(152, 73, 166);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(152, 73, 166);
+        }
+
+        .secondsection {
+            color: rgb(255, 255, 255);
+            max-width: 76vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            margin: 26px 65px;
+            height: 2px;
+            border: 0;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .secondsection .box {
+            background-color: rgb(255, 255, 255);
+            width: 75vw;
+            height: 2px;
+            margin: 19px 0px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 336px;
+            width: 2px;
+            background-color: rgb(255, 255, 255);
+            margin: 0 93px;
+        }
+
+        .image-top {
+            width: 24px;
+            position: relative;
+            top: -24px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: -20px;
+            right: -6px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: -7px;
+            color: rgb(110, 110, 110);
+            width: 154px;
+            font-size: 11px;
+            right: -9px;
+        }
+
+        footer {
+            background-color: #01001a;
+            height: 154px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+            font-size: 11px;
+        }
+
+        .footer>div {
+            width: 260px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="img"><img src="photo_2023-06-06_16-31-17.png" alt="logo"></div>
+            <div class="left">Mudassir's Website</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="Home.html">HTML</a></li>
+
+
+                    <li><a href="facebook.html">Facebook</a></li>
+
+
+                    <li><a href="python.html">Python</a></li>
+
+
+                    <li><a href="Django.html">Django</a></li>
+
+
+                    <li><a href="web_developer.html">Web Developer</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftsection">
+                Hi, my name is <class class="purple">Mudassir</class>
+                <div>and I am a passionated </div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="photo_2023-06-05_17-14-22.png"><button class="btn">Download resume</button></a>
+                    <button class="btn">Visit Gethub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="logo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Exprience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html.png.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer(2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde aspernatur incidunt iste laborum expedita beatae fuga nam sint.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem temporibus
+                        iusto tenetudolores eum alias! Enim cupiditate ut, pariatur totam dolorum
+                        amet asperiores quos voluptasobcaecati, voluptatem dolores unde nostrum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="facebook.png.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        software Developer(2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde aspernatur incidunt iste laborum expedita beatae fuga nam sint.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates
+                        quisquam officia error libero, unde obcaecati, voluptatem dicta, ratione
+                        repellendus mollitia perspiciatis quiarchitecto excepturi. Eos nihil
+                        accusantium ratione.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="python.png.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        python Programer(2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde aspernatur incidunt iste laborum expedita beatae fuga nam sint.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                        quos ex nesciunt repellendus?Culpa quod modi sequi temporibus
+                        hic facilis vero ipsa, non harum deleniti corrupti excepturi
+                        mollitia sapiente similique.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="django.png.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        web framework(2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde aspernatur incidunt iste laborum expedita beatae fuga nam sint.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis officia
+                        tempora debitis beatae,voluptate iure non illum dolores quis.
+                        Recusandae nesciunt aspernatur quia veritatis dicta doloribus accusamus placeat
+                        sequi nemo.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Daco_4562887.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Web Developer(2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde aspernatur incidunt iste laborum expedita beatae fuga nam sint.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro obcaecati
+                        excepturi optio assumenda, laborum repellendus sapiente, in magni tempore
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr1>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mudassir's Website</h3>
+            </div>
+            <div class="footer-second">
+                <h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Info</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="footer-third">
+                <h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contect</li>
+                        <li>Info</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="footer-fourth">
+                <h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contect</li>
+                        <li>Info</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="footer-fourth">
+                <h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contect</li>
+                        <li>Info</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="footer-fourth">
+                <h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contect</li>
+                        <li>Info</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="footer-fourth">
+                <h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contect</li>
+                        <li>Info</li>
+                    </ul>
+                </h3>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Mudassirwebsite.com | All right reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['HTML Developer.', 'Software Developer.', 'Web framework.', 'Web Developer.', 'Python Programer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
